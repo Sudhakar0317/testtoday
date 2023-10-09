@@ -4,12 +4,15 @@ package org.example;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
+
 public class SampleTest extends BaseTest {
-    String test1url = "https://testpages.eviltester.com/styled/basic-html-form-test.html";
+
+    String test1url="https://testpages.eviltester.com/styled/basic-html-form-test.html";
     String test2 = "https://testpages.eviltester.com/styled/html5-form-test.html";
 
     @Test
